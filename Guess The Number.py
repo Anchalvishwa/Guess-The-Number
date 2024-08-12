@@ -5,10 +5,11 @@ Target_Number= random.randint(1,100)
 print("WELCOME TO THE GAME: ---*** GUESS THE NUMBER ***---\n")
 while True:
     
-    User_Choice= int(input("Guess The Target Number! or Quit The Game(Write Q to Quite the game): \n"))
-
+    User_Choice= (input("Guess The Target Number! or Quit The Game(Press Q to Quit the game): \n"))
     if(User_Choice == "Q"):
         break
+    
+    User_Choice=int(User_Choice)
 
     if(User_Choice == Target_Number):
         print("SUCCESS : CORRECT GUESS!!")
