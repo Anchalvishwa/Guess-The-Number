@@ -6,7 +6,7 @@ print("WELCOME TO THE GAME: ---*** GUESS THE NUMBER ***---\n")
 while True:
     
     User_Choice= (input("Guess The Target Number! or Quit The Game(Press Q to Quit the game): \n"))
-    if(User_Choice == "Q"):
+    if(User_Choice == "Q" or User_Choice == "q"):
         break
     
     User_Choice=int(User_Choice)
